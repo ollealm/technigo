@@ -1,0 +1,76 @@
+/* Example styling of a h1 element */
+
+body {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-left: 10%;
+  margin-right: 30%;
+  background-color:  #ff0;
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(0, 0, 0);
+
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26pt;
+    font-weight: bold;
+}
+
+h2 {
+  font-size: 11pt;
+  font-weight: bold;
+  margin-top: 0px;
+
+}
+
+p {
+  font-size: 11pt;
+  line-height: 1.7;
+  font-weight: normal;
+}
+
+small {
+  font-size: 8pt;
+  font-weight: lighter;
+}
+
+a,
+a:visited {
+    color: #00f;
+}
+
+a:hover {
+	color: #ff0;
+	background-color: #00f;
+}
+
+.blink {
+  animation: blinker 0.5s linear infinite;
+  }
+  @keyframes blinker {  
+  50% { opacity: 0; }
+  }
+}
+
+img {
+  float: right;
+}
+
+.right {
+  float: right;
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: -150px;
+
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#000;
+  color: #ff0;
+  text-align: center;
+}
